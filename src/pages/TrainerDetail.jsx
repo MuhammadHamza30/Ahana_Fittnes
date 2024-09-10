@@ -3,7 +3,7 @@ import Navbar from "../Component/Navbar";
 import TopBackground from '../assets/Images/page-top-bg.jpg'
 import Footer from '../Component/Footer'
 import GoBackToTop from '../Component/GoBackToTop'
-import image1 from '../assets/Images/1.jpg.Webp'
+import image1 from '/src/assets/Images/1.jpg.Webp'
 import '../Css/App.css'
 
 
