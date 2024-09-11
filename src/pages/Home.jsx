@@ -21,7 +21,7 @@ import videoImage from '../assets/Images/video.jpg'
 import playIcon from '../assets/Images/play.png'
 import '../Css/owl.carousel.min.css'
 import '../Css/owl.theme.default.min.css'
-import '../Js/owl.carousel.min.js'
+import 'owl.carousel/dist/owl.carousel.min.js'
 import Review from "../Component/Review.jsx";
 import Trainer from "../Component/Trainer.jsx";
 import Footer from "../Component/Footer.jsx";
