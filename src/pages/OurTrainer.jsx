@@ -6,9 +6,9 @@ import GoBackToTop from '../Component/GoBackToTop'
 import image1 from '../assets/Images/1_1.png'
 import image2 from '../assets/Images/2_1.png'
 import image3 from '../assets/Images/3_1.png'
-import image4 from '../assets/Images/4.png.webp'
-import image5 from '../assets/Images/5.png.webp'
-import image6 from '../assets/Images/6.png.webp'
+import image4 from '../assets/Images/41.png'
+import image5 from '../assets/Images/51.png'
+import image6 from '../assets/Images/61.png'
 import '../Css/App.css'
 
 

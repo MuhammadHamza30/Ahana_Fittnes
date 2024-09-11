@@ -3,7 +3,7 @@ import Navbar from "../Component/Navbar";
 import TopBackground from '../assets/Images/page-top-bg.jpg'
 import Footer from '../Component/Footer'
 import GoBackToTop from '../Component/GoBackToTop'
-import CoverImage from '../assets/Images/big.jpg.webp'
+import CoverImage from '../assets/Images/big.jpg'
 import auther1 from '../assets/Images/3_1.jpg'
 import auther2 from '../assets/Images/1_2.jpg'
 import classes1 from '../assets/Images/1_3.jpg'
