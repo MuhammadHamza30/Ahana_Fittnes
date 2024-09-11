@@ -10,60 +10,29 @@ import EventDetail from './pages/EventDetail';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import BlogDetail from './pages/BlogDetail';
-import { createBrowserRouter , RouterProvider } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
 
-  
-  const router = createBrowserRouter ([
-    {
-      path:"/",
-      element:<Home/>
-    },
-    {
-      path:"/About",
-      element:<About/>
-    },
-    {
-      path:"/OurClass",
-      element:<OurClass/>
-    },
-    {
-      path:"/ClassDetail",
-      element:<ClassDetail/>
-    },
-    {
-      path:"/OurTrainer",
-      element:<OurTrainer/>
-    },
-    {
-      path:"/TrainerDetail",
-      element:<TrainerDetail/>
-    },
-    {
-      path:"/OurEvent",
-      element:<OurEvent/>
-    },
-    {
-      path:"/EventDetail",
-      element:<EventDetail/>
-    },
-    {
-      path:"/Blog",
-      element:<Blog/>
-    },
-    {
-      path:"/BlogDetail",
-      element:<BlogDetail/>
-    },
-    {
-      path:"/Contact",
-      element:<Contact/>
-    },
-  ])
-
   return (
-<RouterProvider router={router}/>
+
+<BrowserRouter>
+    <Routes>
+      <Route index="/" element={<Home />} />
+      <Route path="/About" element={<About />} />
+      <Route path="/OurClass" element={<OurClass/>} />
+      <Route path="/ClassDetail" element={<ClassDetail />} />
+      <Route path="/OurTrainer" element={<OurTrainer />} />
+      <Route path="/TrainerDetail" element={<TrainerDetail />} />
+      <Route path="/OurEvent" element={<OurEvent />} />
+      <Route path="/EventDetail" element={<EventDetail />} />
+      <Route path="/Blog" element={<Blog />} />
+      <Route path="/BlogDetail" element={<BlogDetail />} />
+      <Route path="/Contact" element={<Contact />} />
+    </Routes>
+  </BrowserRouter>
+
 
   )
 }
